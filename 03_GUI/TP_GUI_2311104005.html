@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUI Praktikum</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+        }
+        .container {
+            background: #888;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 400px;
+        }
+        .input-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        input, button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input {
+            flex: 1;
+            margin-right: 10px;
+        }
+        button {
+            background-color: rgb(10, 74, 152);
+            color: white;
+            cursor: pointer;
+        }
+        .output {
+            background-color: rgb(10, 74, 152);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="input-container">
+            <input type="text" id="nameInput" placeholder="Masukkan Nama Kamu">
+            <button onclick="showGreeting()">Kirim</button>
+        </div>
+        <div class="output" id="outputLabel">OUTPUT</div>
+    </div>
+
+    <script>
+        function showGreeting() {
+            let name = document.getElementById("nameInput").value;
+            let outputLabel = document.getElementById("outputLabel");
+
+            if (name.trim() !== "") {
+                outputLabel.textContent = "Halo " + name;
+            } else {
+                outputLabel.textContent = "Silakan masukkan nama!";
+            }
+        }
+    </script>
+
+</body>
+</html>
