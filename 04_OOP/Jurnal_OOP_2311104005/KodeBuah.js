@@ -21,3 +21,6 @@ class KodeBuah {
 
 const kodeBuah = new KodeBuah();
 console.log(`Kode Buah Apel: ${kodeBuah.getKodeBuah("Apel")}`);
+
+
+// ubah message
