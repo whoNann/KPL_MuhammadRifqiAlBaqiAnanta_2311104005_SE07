@@ -21,6 +21,10 @@ class KodePos {
 }
 
 const kodePos = new KodePos();
-console.log(`Kode Pos Batununggal: ${kodePos.getKodePos("Batununggal")}`);
-console.log(`Kode Pos Wates: ${kodePos.getKodePos("Wates")}`);
-console.log(`Kode Pos Maleer: ${kodePos.getKodePos("Maleer")}`);
+
+console.log("Daftar Nama Kelurahan:");
+console.log("Batununggal, Kujangsari, Mengger, Wates, Cijaura, Jatisari, Margasari, Sekejati, Kebonwaru, Maleer, Samoja");
+
+const kelurahan = "Wates";
+console.log(`Masukkan nama kelurahan: ${kelurahan}`);
+console.log(`Kode Pos ${kelurahan}: ${kodePos.getKodePos(kelurahan)}`);
