@@ -1,0 +1,12 @@
+{
+  "name": "modul8_NIM",
+  "version": "1.0.0",
+  "description": "Jurnal Modul 8 - Runtime Configuration Bank Transfer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Nama Kamu",
+  "license": "ISC"
+}

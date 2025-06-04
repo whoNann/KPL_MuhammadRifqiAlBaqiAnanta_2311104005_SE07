@@ -1,0 +1,13 @@
+{
+  "name": "tpmodul8_2311104005",
+  "version": "1.0.0",
+  "description": "Tugas Pendahuluan Modul 8 - Runtime Configuration (Node.js)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Nama Kamu",
+  "license": "ISC"
+}

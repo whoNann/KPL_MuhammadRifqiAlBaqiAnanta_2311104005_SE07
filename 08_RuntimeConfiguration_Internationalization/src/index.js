@@ -23,4 +23,4 @@ await i18next
 console.log('Environment:', config.env);
 console.log('Port:', config.port);
 console.log(i18next.t('intro'));
-console.log(i18next.t('greeting', { name: 'Revan' }));
+console.log(i18next.t('greeting', { name: 'Nanta' }));
