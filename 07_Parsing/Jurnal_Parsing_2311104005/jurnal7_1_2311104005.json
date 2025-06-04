@@ -1,0 +1,15 @@
+{
+  "firstName": "Muhammad Rifqi",
+  "lastName": "Al Baqi Ananta",
+  "gender": "male",
+  "age": 20,
+  "address": {
+    "streetAddress": "Jl. Raya Purwokerto",
+    "city": "Banyumas",
+    "state": "Central Java"
+  },
+  "courses": [
+    { "code": "CRI2C4", "name": "Konstruksi Perangkat Lunak" },
+    { "code": "CRI2XX", "name": "Nama Mata Kuliah" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "members": [
+    {
+      "firstName": "Rifki",
+      "lastName": "Lemon",
+      "gender": "male",
+      "age": 20,
+      "nim": "2311104001"
+    },
+    {
+      "firstName": "Maspe",
+      "lastName": "HIMAROX",
+      "gender": "male",
+      "age": 20,
+      "nim": "2311104002"
+    },
+    {
+      "firstName": "Yogi",
+      "lastName": "Kost",
+      "gender": "male",
+      "age": 20,
+      "nim": "2311104003"
+    }
+  ]
+}
