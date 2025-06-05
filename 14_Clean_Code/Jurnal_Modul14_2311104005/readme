@@ -1,0 +1,9 @@
+soal1.js
+Kode ini meminta input nama dari pengguna melalui terminal, kemudian menampilkan pesan sambutan secara personal menggunakan nama yang dimasukkan. Refactoring dilakukan dengan memperjelas penamaan variabel menggunakan camelCase, menambahkan komentar untuk setiap bagian utama kode, serta memastikan struktur dan indentasi kode konsisten sehingga lebih mudah dipahami dan dipelihara.
+
+soal2.js
+Program ini menghasilkan deret angka 0 hingga 49 dan mencetak masing-masing angka dengan tambahan tanda khusus jika memenuhi syarat tertentu: tanda #$#$ untuk angka kelipatan 2 dan 3, ## untuk kelipatan 2 saja, dan $$ untuk kelipatan 3 saja. Proses refactoring meliputi penggunaan nama variabel yang lebih deskriptif, konsistensi dalam penggunaan whitespace dan indentation, serta penambahan komentar agar kode lebih terstruktur dan mudah dipahami.
+
+soal3.js
+Kode ini menerima input berupa angka dari pengguna, melakukan validasi agar input berada dalam rentang 1 hingga 10.000, lalu menentukan apakah angka tersebut adalah bilangan prima menggunakan fungsi khusus. Refactoring difokuskan pada penamaan variabel yang jelas, pemberian komentar untuk setiap blok logika utama, serta penyusunan ulang struktur kode agar lebih rapi, efisien, dan mudah untuk dikembangkan di masa mendatang.
+

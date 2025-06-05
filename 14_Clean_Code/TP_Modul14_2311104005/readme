@@ -1,0 +1,5 @@
+soala.js
+Kode ini meminta pengguna memasukkan satu huruf kapital melalui terminal, kemudian memeriksa apakah huruf tersebut merupakan huruf vokal (A, I, U, E, O) atau konsonan. Refactoring dilakukan dengan menyesuaikan penamaan variabel agar lebih jelas, menambah komentar pada setiap bagian utama, serta merapikan struktur dan indentasi kode sehingga program menjadi lebih mudah dibaca dan dipahami.
+
+soalb.js
+Program ini menampilkan deret bilangan genap dari 2 sampai 10, lengkap dengan urutan kemunculannya, menggunakan perulangan pada array. Pada proses refactoring, penamaan variabel diperjelas dengan standar camelCase, struktur kode dirapikan, dan komentar ditambahkan agar setiap bagian program lebih mudah dimengerti serta mengikuti standar penulisan kode yang baik.
