@@ -1,0 +1,13 @@
+PENJELASAN:
+
+1. index.html
+Penjelasan:
+File ini adalah struktur utama antarmuka aplikasi, yang memuat tiga bagian inti: form login, form registrasi, dan tampilan sambutan setelah login berhasil. Setiap form memiliki input untuk username dan password beserta tombol aksi (Login/Daftar), serta navigasi antar form menggunakan elemen <span> dengan event handler. Setelah login, pengguna mendapat pesan personalisasi beserta tombol untuk logout dan ekspor data user ke file JSON. File ini juga menghubungkan CSS eksternal (style.css) untuk tampilan, dan JavaScript eksternal (app.js) untuk semua logika aplikasi. Struktur HTML ini membuat aplikasi mudah digunakan dan navigasi antar proses (login, registrasi, welcome) menjadi jelas serta interaktif.
+
+2. style.css
+Penjelasan:
+File ini berfungsi memperindah dan mengatur tampilan aplikasi agar modern, rapi, dan responsif. Kontainer utama (.container) ditempatkan di tengah layar dengan padding, sudut membulat, dan bayangan lembut. Elemen input dan tombol dibuat full-width dengan padding dan border bulat, serta diberikan efek transisi warna saat hover untuk pengalaman pengguna yang lebih interaktif. Warna tombol utama (biru) dibedakan dengan tombol sekunder (abu-abu), sementara pesan error dan sukses memiliki warna kontras yang mudah dikenali. Seluruh gaya ini mendukung pengalaman visual yang bersih dan profesional dalam aplikasi login/registrasi.
+
+3. app.js
+Penjelasan:
+File ini berisi seluruh logika aplikasi, mulai dari validasi input username dan password dengan aturan secure coding (panjang, kombinasi karakter, dan larangan tertentu), proses registrasi dan login dengan verifikasi password yang sudah di-hash menggunakan SHA-256, hingga penyimpanan dan pengambilan data user dari localStorage (simulasi file JSON). Fungsi UI switching diatur agar pengguna dapat berpindah antar form login, registrasi, dan tampilan sambutan secara dinamis. Selain itu, tersedia juga fitur ekspor data user ke file JSON untuk dokumentasi atau backup. Dengan penerapan ini, keamanan data pengguna terjaga dan seluruh proses autentikasi berjalan sepenuhnya di sisi klien secara efisien dan aman.
